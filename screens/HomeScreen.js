@@ -40,8 +40,9 @@ export default class HomeScreen extends React.Component{
         this.OnPresstesy=()=>{
             this.props.navigation.navigate(item.thing)
         }
+
         return(
-            <TouchableOpacity onPress={this.OnPresstesy}>
+          <TouchableOpacity onPress={this.OnPresstesy}>
             <Card containerStyle={{height:"90%",width:"100%",backgroundColor:"#FFF",borderRadius:30}}>
                 <View style={{height:"80%",width:"100%"}}>
                     <LottieView 
@@ -54,14 +55,14 @@ export default class HomeScreen extends React.Component{
                     {item.title}
                 </Text>
             </Card>
-            </TouchableOpacity>
+          </TouchableOpacity>
         )
     }
       
     render(){
         return(
             <SafeAreaView style={styles.container}>               
-               <StatusBar barStyle="dark-content" backgroundColor="white"/>
+            <StatusBar barStyle="dark-content" backgroundColor="white"/>
                 <View style={{height:"30%",width:"100%",alignItems:"center"}}>
                     <LottieView 
                         source={require("../Animations/orange_logo.json")}
@@ -84,6 +85,7 @@ export default class HomeScreen extends React.Component{
                         
                         />
                 </View>
+
                     <TouchableOpacity style={styles.translate_page_navigation_button} onPress={this.onPress_translate_page_navigation_button}>
                         <Text style={{color:"#FFF",fontSize:18,fontWeight:"bold",marginLeft:"12%",height:"35%",width:"50%"}}>Text To Speech Converter </Text>
                         <Icon name="ios-arrow-forward" size={24} color="#FFF" style={{marginLeft:"20%"}}/>
