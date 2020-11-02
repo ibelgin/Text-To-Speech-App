@@ -14,7 +14,6 @@ export default class TranslateScreen extends React.Component{
 
         this.state = {
             carouselItems:[
-
                {lang:"en-US",display:"English (US)"},
                {lang:"ta-IN",display:"Tamil"},
                {lang:"ja-JP",display:"Japanese"},
@@ -30,9 +29,11 @@ export default class TranslateScreen extends React.Component{
         Tts.addEventListener("tts-start", event =>
           this.setState({ ttsStatus: "started" })
         );
+
         Tts.addEventListener("tts-finish", event =>
           this.setState({ ttsStatus: "finished" })
         );
+
         Tts.addEventListener("tts-cancel", event =>
           this.setState({ ttsStatus: "cancelled" })
         );
@@ -69,20 +70,19 @@ export default class TranslateScreen extends React.Component{
 
     _renderItem = ({ item, index }) =>{
         return(
-            <TouchableOpacity onPress={()=>{Tts.setDefaultLanguage(item.lang);}} >
+          <TouchableOpacity onPress={()=>{Tts.setDefaultLanguage(item.lang);}} >
             <Card containerStyle={{borderWidth:StyleSheet.hairlineWidth,borderColor:"#161f3d",alignItems:"center",justifyContent:"center",height:"70%",width:"100%",backgroundColor:"#FFF",borderRadius:15}}>
                 <Text style={{color:"#161f3d",fontWeight:"bold",fontSize:18,marginLeft:"5%",width:"100%"}}>
                     {item.display}
                 </Text>
             </Card>
-            </TouchableOpacity>
+          </TouchableOpacity>
         )
     }
 
     
     render(){
         return(
-            
                 <KeyboardAvoidingView style={styles.container}>
                     <View style={{marginTop:"5%",height:"40%",width:"100%",alignItems:"center",backgroundColor:"#161f3d"}}>
                         <TextInput 
