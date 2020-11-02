@@ -11,6 +11,7 @@ export default class AboutScreen extends React.Component{
     onPressGithub=()=>{
         Linking.openURL("https://github.com/Belgin-Android")
     }
+
     render(){
         return(
             <SafeAreaView style={styles.container}>
@@ -21,6 +22,7 @@ export default class AboutScreen extends React.Component{
                         loop={true}
                     />
                 </View>
+
                <View style={{height:"20%",width:"100%",flexDirection:"row"}}>
                     <View style={{height:"100%",width:"30%"}}>
                         <LottieView
@@ -36,6 +38,7 @@ export default class AboutScreen extends React.Component{
                         </View>               
                     
                </View>
+
                <View style={{alignItems:"center",marginLeft:"10%",height:"18%",width:"90%",flexDirection:"row"}}>
                     <TouchableOpacity style={{height:"100%",width:"30%"}} onPress={this.onPressGithub}>
                     <LottieView
