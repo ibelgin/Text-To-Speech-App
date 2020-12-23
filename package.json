@@ -19,7 +19,7 @@
     "react-native-gesture-handler": "^1.9.0",
     "react-native-reanimated": "^1.9.0",
     "react-native-safe-area-context": "^3.0.6",
-    "react-native-screens": "^2.9.0",
+    "react-native-screens": "^2.16.1",
     "react-native-snap-carousel": "^3.9.1",
     "react-native-tabs": "^1.0.9",
     "react-native-tts": "^3.2.0",
