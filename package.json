@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
-    "edit-json-file": "^1.4.0",
+    "edit-json-file": "^1.5.0",
     "lottie-react-native": "^3.4.0",
     "react": "16.11.0",
     "react-native": "0.62.2",
