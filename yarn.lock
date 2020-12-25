@@ -2578,10 +2578,10 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-edit-json-file@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/edit-json-file/-/edit-json-file-1.4.0.tgz#bb244abf7fc47a23f3dfb7c106a80f2ef83c39c3"
-  integrity sha512-QS2UtS5sbGbufsZPAvL67kq1xUndVgEJv2cusf7sY+T1c0uqxaRTGD/PrUlkZWkeybiEhrRPSfuCyrj6jRMcag==
+edit-json-file@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/edit-json-file/-/edit-json-file-1.5.0.tgz#da7c69640a5d4a31de3cd7c367bb69bc999a84d4"
+  integrity sha512-YysmqOok2zzUAF6g/nydRZ+o6W8Iol1nQxkdqxwNt4k7MRjTIydrt9fWSzJ0wC14t651z0ofRjQkTjip66re2g==
   dependencies:
     find-value "^1.0.3"
     iterate-object "^1.3.2"
