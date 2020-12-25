@@ -6298,10 +6298,10 @@ rimraf@~2.2.6:
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
   integrity sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=
 
-rn-range-slider@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/rn-range-slider/-/rn-range-slider-1.3.2.tgz#7c8618fc5ba302b20135908e5ab97c549eb759ab"
-  integrity sha512-1H8OmCgXDOhdDmOD4QylGd6iRk4Zqh6n0vB3Zcng8MHKm06JQIP+4fC4VdvDtYGCXPDzZvc/k1jbp2/64pznfw==
+rn-range-slider@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/rn-range-slider/-/rn-range-slider-2.0.3.tgz#bed56fdac9bff5fd97a03846442077c9d3eb3061"
+  integrity sha512-tQE8aZ31VexrKfqFPMIr6Et9xrtpRJzo0sLoCB5HNRtXZ9J/NM9FAWSidcfS8wOep1hIf7pY/BTEh8tw5iDcQw==
 
 rsvp@^4.8.4:
   version "4.8.5"
