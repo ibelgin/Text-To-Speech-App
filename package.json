@@ -17,7 +17,7 @@
     "react-native": "0.62.2",
     "react-native-elements": "^3.0.1",
     "react-native-gesture-handler": "^1.9.0",
-    "react-native-reanimated": "^1.9.0",
+    "react-native-reanimated": "^1.13.2",
     "react-native-safe-area-context": "^3.0.6",
     "react-native-screens": "^2.16.1",
     "react-native-snap-carousel": "^3.9.1",
