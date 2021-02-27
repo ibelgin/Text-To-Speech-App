@@ -1,6 +1,6 @@
 # Text To Spech App
 
-This App Was made using React native. 
+This Text to Speech Was made using React native. 
 
 ### Installing
 
