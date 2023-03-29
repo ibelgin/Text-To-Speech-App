@@ -17,11 +17,11 @@ This Text to Speech Was made using React native.
 
 ## Sample Preview
 
-<img src="https://user-images.githubusercontent.com/61349423/86529861-d0475700-bed1-11ea-845e-b1b2a84554ee.png" width="300" height="500">
+<img src="https://user-images.githubusercontent.com/61349423/86529861-d0475700-bed1-11ea-845e-b1b2a84554ee.png" width="260" height="460">
 
 ## Authors
 
-* **Belgin Android** - *All Works* - [Belgin Android](https://github.com/Belgin-Android)
+* **Belgin Android** - *All Works* - [Belgin Android](https://github.com/ibelgin)
 
 ## Problems ?
 
