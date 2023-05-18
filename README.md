@@ -1,6 +1,6 @@
 # Text To Speech App
 
-This Text to Speech Was made using React native. 
+Text to Speech - React native. 
 
 ### Installing
 
